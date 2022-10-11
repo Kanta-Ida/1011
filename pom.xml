@@ -17,13 +17,7 @@
 
 	<dependencies>
 
-	 <!--JUnit Libraries -->
-	  <dependency>
-	   <groupId>junit</groupId>
-	   <artifactId>junit</artifactId>
-	   <version>${junit.version}</version>
-	   <scope>test</scope>
-	   </dependency>
+
 		<!-- <dependency>
 			<groupId>org.springframework. boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -50,6 +44,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
+
+		 <!--JUnit Libraries -->
+	  <dependency>
+	   <groupId>junit</groupId>
+	   <artifactId>junit</artifactId>
+	   <version>${junit.version}</version>
+	   <scope>test</scope>
+	   </dependency>
+	   <groupId>org.easympck</groupId>
+	   <artifactId>easymock</artifactId>
+	   <version>${easymock.version}</version>
+	   <scope>test</scope>
 
 	</dependencies>
 
